@@ -21,6 +21,10 @@
 > *For all commands: can make/delete several files/folders at once by separating names by a space
  > - i.e. "touch 'hello.js' 'goodbye.js'"
 
-
+### **Git Commands**
+- git status --> shows git status
+- git init --> make the current directory a new git repository
+  - run it one time per project!
+- 
 
 
