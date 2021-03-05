@@ -33,6 +33,14 @@
   - primarily a terminal based tool
 - **Github** is the online service that hosts Git repos in the cloud and makes it easier to collaborate with other people
 - As a developer, you could use Git only and never touch Github.
+
+### **Git Repository**
+- workspace which tracks and manages files within a folder
+- anytime we want Git to track our project, we need to create a new git repository
+  - MAKE SURE YOU ARE NOT ALREADY INSIDE A REPO - don't want to have nested repos
+- Git tracks from top down - i.e. the top level folder should be where git is initialized
+- 
+
   
 
 
