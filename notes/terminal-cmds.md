@@ -26,5 +26,6 @@
 - git init --> make the current directory a new git repository
   - run it one time per project!
 - git log --> see record of all previous commits 
+- "git log --pretty" or "git log --oneline"
 
 
