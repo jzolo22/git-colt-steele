@@ -30,7 +30,9 @@
 - **Git** is the VCS that runs locally on your machine
   - do not need an account, don't need the internet, etc 
   - (kind of like using Microsoft Word on a computer)
+  - primarily a terminal based tool
 - **Github** is the online service that hosts Git repos in the cloud and makes it easier to collaborate with other people
+- As a developer, you could use Git only and never touch Github.
   
 
 
