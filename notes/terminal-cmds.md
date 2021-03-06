@@ -22,10 +22,14 @@
  > - i.e. "touch 'hello.js' 'goodbye.js'"
 
 ### **Git Commands**
-- git status --> shows git status
-- git init --> make the current directory a new git repository
+- "git status" --> shows git status
+- "git init" --> make the current directory a new git repository
   - run it one time per project!
-- git log --> see record of all previous commits 
+- "git log" --> see record of all previous commits 
 - "git log --pretty" or "git log --oneline"
+- "git commit --amend" --> will open VSCode 
+  - allow you to amend the commit message from the previous commit
+  - alternately, if you type "git add" prior to "git commit --amend" then you can just close the file that opens and the file you've added with "git add" will be added to that commit as well
+- "git commit -a -m 'message'" --> commits all unstaged changes
 
 
