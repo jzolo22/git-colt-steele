@@ -20,7 +20,7 @@
   - became frustrated with BitKeeper VCS charging money
   - wanted a free VCS that would be open source
   - in April 2005 basic functionality was completed
-- Meaning of name (depends on your mood!):
+- Meaning of name (depends on your mood, how fun!):
   - random 3-letter combination that is pronounceable and not used by any commmon UNIX command
   - stupid
   - "global information tracker" (for a good mood)
