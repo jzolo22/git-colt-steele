@@ -25,4 +25,26 @@
   - "git switch 'branch-name'" 
   - **"git switch -c 'branch-name'"** --> make a new branch and switch right away
     - "-c" --> short for create 
+- **deleting/renaming branches**
+  - "git branch -d 'branch-name'" --> delete branch
+    - can't do that while on the branch being deleted
+  - "git branch -m 'new-branch-name'" --> rename branch
+    - must be on the branch to rename
+- "git branch -v" --> provides additional information about each branch (e.g. last commit) 
+
+### **Merging**
+- we merge *branches*, not specific commits
+- we always merge to the current HEAD branch
+- follow 2 steps to merge:
+  - switch to the branch that should *receive* the changes
+  - use "git merge 'bugfix'" to merge changes from 'bugfix' into the receiving branch
+- if there are no new commits (since branching) on the receiving branch, it's called a "fast-forward" merge, since it's just bringing the receiving branch up to the pointer of the bugfix one
+
+### **Resolving Merge Conflicts**
+- 3 steps:
+  - open file(s) with merge conflicts
+  - edit the file(s) to remove the conflicts
+    - decide which branch's content you want to keep in each conflict or keep the content from both
+  - remove the conflict "markers" in the doc
+  - add your changes and then make a commit
 
