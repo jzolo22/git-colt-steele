@@ -39,7 +39,6 @@
 - anytime we want Git to track our project, we need to create a new git repository
   - MAKE SURE YOU ARE NOT ALREADY INSIDE A REPO - don't want to have nested repos
 - Git tracks from top down - i.e. the top level folder should be where git is initialized
-- 
 
   
 
