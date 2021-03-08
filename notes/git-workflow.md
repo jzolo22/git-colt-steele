@@ -19,25 +19,25 @@
 - enable us to create separate contexts to try different things without breaking the main branch
 - the default branch is "master" but has no special powers or anything. It doesn't *have* to exist and doesn't have to be the SSOT for your codebase - you can decide for yourself what you want to do with it/ how you want to use it
 - creating branches
-  - "git branch 'new-branch-name'"
+  - ```git branch new-branch-name```
     - creates it based on the current HEAD
     - DOESN'T ACTUALLY CHECK IT OUT, JUST CREATES IT
-  - "git switch 'branch-name'" 
-  - **"git switch -c 'branch-name'"** --> make a new branch and switch right away
-    - "-c" --> short for create 
+  - ```git switch branch-name``` 
+  - ```git switch -c branch-name``` --> make a new branch and switch right away
+    - ```-c``` --> short for create 
 - **deleting/renaming branches**
-  - "git branch -d 'branch-name'" --> delete branch
+  - ```git branch -d branch-name``` --> delete branch
     - can't do that while on the branch being deleted
-  - "git branch -m 'new-branch-name'" --> rename branch
+  - ```git branch -m new-branch-name``` --> rename branch
     - must be on the branch to rename
-- "git branch -v" --> provides additional information about each branch (e.g. last commit) 
+- ```git branch -v``` --> provides additional information about each branch (e.g. last commit) 
 
 ### **Merging**
 - we merge *branches*, not specific commits
 - we always merge to the current HEAD branch
 - follow 2 steps to merge:
   - switch to the branch that should *receive* the changes
-  - use "git merge 'bugfix'" to merge changes from 'bugfix' into the receiving branch
+  - use ```git merge bugfix``` to merge changes from ```bugfix``` into the receiving branch
 - if there are no new commits (since branching) on the receiving branch, it's called a "fast-forward" merge, since it's just bringing the receiving branch up to the pointer of the bugfix one
 
 ### **Resolving Merge Conflicts**

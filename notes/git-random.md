@@ -21,4 +21,12 @@
 ### **Branches w/ Unstaged Changes**
 - if a new file has been added to a branch, then branch is changed without committing that file, the file will follow you to different branches
 
+### **Git Diff** 
+- ```git diff``` --> lists all the changes in our working directory that are NOT staged for the next commit
+- unless specified otherwise, git will be comparing 2 versions of the same file & names them a & b
+- @@ --> start of a "chunk"
+  - the first 2 numbers refer to old version, second to new
+  - first number is line at which the chunk starts, second number is how many lines
+- ```git diff --staged``` or ```git diff --cached``` --> i.e. show me what what will be included in my commit if I run git commit right now
+
 ### **Stash**
