@@ -6,11 +6,11 @@
   - log files
   - OS files
   - dependencies & packages
-- Add file to root of directory (repo) called .gitignore
+- Add file to root of directory (repo) called ```.gitignore```
   - inside it, write patterns to ignore certain files/folders, e.g.
-    -  ".DS_Store" for that specific file
-    - "folderName/" for a whole folder
-    - "*.log" anything that ends with .log ( * is a wildcard)
+    -  ```.DS_Store``` for that specific file
+    - ```folderName/``` for a whole folder
+    - ```*.log``` anything that ends with .log ( * is a wildcard)
 
 > gitignore.io --> for help/suggestions setting up the gitignore file
 
