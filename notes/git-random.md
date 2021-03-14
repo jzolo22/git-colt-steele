@@ -28,5 +28,16 @@
   - the first 2 numbers refer to old version, second to new
   - first number is line at which the chunk starts, second number is how many lines
 - ```git diff --staged``` or ```git diff --cached``` --> i.e. show me what what will be included in my commit if I run git commit right now
+  - shows all STAGED file changes
+- ```git diff HEAD``` --> lists all changes in the working tree since your last commit
+  - staged AND unstaged changes
+  - as a reminder, HEAD just points to the last commit
+
+> for all these commands, can follow with name of a specific file (or multiple separated by space) to see only changes in that file
+
+- ```git diff branchA..branchB``` or ```git diff branchA branchB```  will compare changes between branches
+- ```git diff commitA..commitB``` or ```git diff commitA..commitB``` will compare changes between commits
+  - need to provide the commit hashes of the requested commits to be compared
+    - can get by running git log --oneline & copying the number
 
 ### **Stash**
