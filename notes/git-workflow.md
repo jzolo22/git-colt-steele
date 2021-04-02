@@ -48,3 +48,15 @@
   - remove the conflict "markers" in the doc
   - add your changes and then make a commit
 
+### **Undoing Changes & Time Traveling**
+- "Detached HEAD state" 
+  - if you do ```git checkout <commit hash>```, you have "traveled back in time" and can make changes without affecting the current "future" commits
+  - normally HEAD points to a branch reference (i.e. master) and the branch points to the most recent commit
+    - so HEAD only changes when we switch branches
+    - OR if we checkout a specific commit, in which case HEAD points to that actual commit, rather than a branch reference
+- What we can do in "Detached HEAD":
+  - stay in detached HEAD to examine the contents of the old commit. Poke around, view the files, etc.
+  - leave and go back to where you were before ("reattach the HEAD")
+  - creat a new branch and switch to it. You can now make and save changes since HEAD is no longer detached (rather, pointing to a new branch reference)
+- To get out of this state, simply switch to a branch.
+  - HEAD will now point to a branch reference (and last commit) again
