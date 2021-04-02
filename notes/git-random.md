@@ -41,3 +41,14 @@
     - can get by running git log --oneline & copying the number
 
 ### **Stash**
+- If you make changes that are not committed on a branch and try to switch to a different branch, one of two things will happen:
+  - changes will come with you to the different branch OR
+  - git won't let you switch if there are potential conflicts with those changes and the different branch
+- ```git stash``` or ```git stash save``` will take all uncommitted changes (staged & unstaged) and stash them, reverting the changes in your working copy. 
+- ```git stash pop``` to remove the last stashed piece of code and apply it to the working directory
+- ```git stash apply``` --> kind of like ```git stash pop``` but it applies the changes to your branch AND keeps them in your stash so you could apply your stashed changes to multiple branches if you wanted.
+  - will assume that you want to apply the most recent stash
+  - CAN specify which stash to apply by using ```git stash apply stash@{1}```
+- ```git stash list``` --> will show all stashed items
+- ```git stash drop stash@{1}``` --> remove a specific stash from stash
+- ```git stash clear``` --> remove everything from the stash
