@@ -52,3 +52,4 @@
 - ```git stash list``` --> will show all stashed items
 - ```git stash drop stash@{1}``` --> remove a specific stash from stash
 - ```git stash clear``` --> remove everything from the stash
+
