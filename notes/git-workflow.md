@@ -57,6 +57,6 @@
 - What we can do in "Detached HEAD":
   - stay in detached HEAD to examine the contents of the old commit. Poke around, view the files, etc.
   - leave and go back to where you were before ("reattach the HEAD")
-  - creat a new branch and switch to it. You can now make and save changes since HEAD is no longer detached (rather, pointing to a new branch reference)
+  - create a new branch and switch to it. You can now make and save changes since HEAD is no longer detached (rather, pointing to a new branch reference)
 - To get out of this state, simply switch to a branch.
   - HEAD will now point to a branch reference (and last commit) again
